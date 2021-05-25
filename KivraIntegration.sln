@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KivraIntegration.API", "KivraIntegration.API.csproj", "{ADE28874-3D0D-4234-B0CD-72A848161B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KivraIntegration.BusinessLogic", "Projects\BusinessLogic\KivraIntegration.BusinessLogic.csproj", "{D405A34E-75EA-48B9-91D3-3824EF3C8602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KivraIntegration.ServiceIntegration", "Projects\ServiceIntegration\KivraIntegration.ServiceIntegration.csproj", "{1F90200C-52B2-444B-8014-D60EE96A865C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE28874-3D0D-4234-B0CD-72A848161B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE28874-3D0D-4234-B0CD-72A848161B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE28874-3D0D-4234-B0CD-72A848161B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE28874-3D0D-4234-B0CD-72A848161B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D405A34E-75EA-48B9-91D3-3824EF3C8602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D405A34E-75EA-48B9-91D3-3824EF3C8602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D405A34E-75EA-48B9-91D3-3824EF3C8602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D405A34E-75EA-48B9-91D3-3824EF3C8602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F90200C-52B2-444B-8014-D60EE96A865C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F90200C-52B2-444B-8014-D60EE96A865C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F90200C-52B2-444B-8014-D60EE96A865C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F90200C-52B2-444B-8014-D60EE96A865C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC69949C-4E46-4AAC-9A47-9C2B57170063}
+	EndGlobalSection
+EndGlobal
